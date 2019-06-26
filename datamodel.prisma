@@ -11,7 +11,7 @@ type User {
   likes: [Like!]!
   comments: [Comment!]!
   romms: [Room!]!
-  loginSecret: String!
+  loginSecret: String
 }
 
 type Post {
